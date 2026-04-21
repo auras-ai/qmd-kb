@@ -10,7 +10,8 @@
     {
       "binding": "DB",
       "database_name": "qmd-kb-db",
-      "database_id": "ac7197ee-bf22-4be5-b8e4-51f37395c29c"
+      "database_id": "ac7197ee-bf22-4be5-b8e4-51f37395c29c",
+      "migrations_dir": "src/db/migrations"
     }
   ],
   "vars": {

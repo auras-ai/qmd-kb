@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply qmd-kb-db",
+    "db:migrate:local": "wrangler d1 migrations apply qmd-kb-db --local",
+    "qmd-proxy": "node scripts/qmd-proxy.mjs",
+    "sync": "./scripts/sync-qmd.sh",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
