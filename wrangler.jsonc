@@ -1,0 +1,20 @@
+{
+  "name": "qmd-kb",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-01",
+  "account_id": "987baeb0ecf6dbd86b139f668949ab4a",
+  "routes": [
+    { "pattern": "qmd.qazar.cloud", "custom_domain": true }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "qmd-kb-db",
+      "database_id": "ac7197ee-bf22-4be5-b8e4-51f37395c29c"
+    }
+  ],
+  "vars": {
+    "OLLAMA_URL": "https://ollama.qazar.cloud",
+    "VISION_MODEL": "gemma4:e2b"
+  }
+}
